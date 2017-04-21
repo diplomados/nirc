@@ -9,7 +9,7 @@ function arranque(autor){
 
 function emitir(mensaje){
 	console.log(mensaje+"\n");
-	servidor.sockets.emit('notificarMensaje',mensaje+"*"); //notificarMensaje los usuarios
+	servidor.sockets.emit('notificarMensaje',mensaje+"*"); //notificarMensaje a los usuarios
 }
 
 console.log("Express server running at\n "+ 
