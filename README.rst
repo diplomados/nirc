@@ -31,7 +31,7 @@ Installation
 Dependencies
 -------------------
 
-- JQuery (not part of the bundle)
+- socket.io (not part of the bundle)
 
 
 
